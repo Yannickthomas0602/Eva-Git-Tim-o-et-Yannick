@@ -28,13 +28,18 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.main.remote=origin
 branch.main.merge=refs/heads/main
 
-
+```
 # Commande : git branch
- feature/add-css
+```bash
+
+  feature/add-css
 * main
   refactor/change-css
 
+```
 # Commande : git log --oneline
+```bash
+
 97892fa (HEAD -> main, origin/main, origin/HEAD) augmentation de         height: 1000,
 6862c25 modification de la vitesse de basespeed à 8
 695adfc modification des couleurs dans pingpong(game.-topbar)
@@ -75,14 +80,19 @@ bcaa935 (tag: v1.1) Modification du bandeau de navigation
 ac4d40c (tag: v1.0) Ajout du fichier commandes.html et modification index.html et style.css
 c9efae8 (tag: v0.1) premier commit
 7bbf485 (tag: v0.0) Initialisation du projet
-
+```
 # Commande : git Status 
+```bash
+
 On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+```
 
 # Commande : git log --graph --oneline --all
+```bash
+
 * 1a2b423 (refactor/change-css) branche avec des couleurs différentes sur le css
 | * 97892fa (HEAD -> main, origin/main, origin/HEAD) augmentation de         height: 1000,
 | * 6862c25 modification de la vitesse de basespeed à 8
