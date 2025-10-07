@@ -7,8 +7,8 @@ const GAME_STATE = {
     targetScore: 5,
     ball: {
         size: 12,
-        baseSpeed: 1.6,
-        maxSpeed: 5.2,
+        baseSpeed: 0.0,
+        maxSpeed: 15.4,
         growthFactor: 1.07,
         x: canvas.width / 2,
         y: canvas.height / 2,
