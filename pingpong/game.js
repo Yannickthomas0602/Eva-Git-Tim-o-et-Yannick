@@ -17,7 +17,7 @@ const GAME_STATE = {
     },
     player: {
         width: 12,
-        height: 90,
+        height: 1000,
         x: 30,
         y: canvas.height / 2 - 45,
         direction: 0,
