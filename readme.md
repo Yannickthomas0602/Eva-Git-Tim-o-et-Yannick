@@ -1,4 +1,7 @@
-# Commande : git config --list
+# 🧠 Rapport Git — Yannick Thomas
+
+## ⚙️ Configuration Git (`git config --list`)
+```bash
 diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -24,6 +27,7 @@ remote.origin.url=https://github.com/Yannickthomas0602/Eva-Git-Tim-o-et-Yannick.
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.main.remote=origin
 branch.main.merge=refs/heads/main
+
 
 # Commande : git branch
  feature/add-css
