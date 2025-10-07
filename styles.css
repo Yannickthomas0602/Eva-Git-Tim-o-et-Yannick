@@ -1,10 +1,10 @@
 /* Variables CSS servant de design tokens pour l'ensemble du site */
 :root {
-    --accent: #ff8258;
-    --accent-dark: #e46a41;
+    --accent: #323030;
+    --accent-dark: #b4b5c1;
     --ink-900: #1f2a3d;
     --ink-700: #596074;
-    --ink-400: #9aa3b8;
+    --ink-400: hsl(303, 71%, 43%);
     --surface: #ffffff;
     --surface-soft: #eef2fb;
     --background: #f5f7fc;
